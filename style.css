@@ -1,0 +1,132 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  font-weight: 400;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+h2{
+  color: dodgerblue;
+}
+h3{
+  margin: 0.75rem 0;
+}
+h4{
+  font-style: italic;
+  font-weight: 400;
+  color: #878787;
+  margin: 0;
+}
+button{
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 3px;
+  background: lightskyblue;
+  color: white;
+  cursor: pointer;
+}
+label, input, textarea{
+  display: block;
+  width: 100%;
+  border: 0;
+}
+input, textarea{
+  margin-bottom: 1rem;
+  padding: 0.75rem 0.25rem;
+}
+label{
+  margin-bottom: 0.25rem;
+}
+body {
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+.clearfix{
+  clear: both;
+}
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.container-wide{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.bg-section{
+  background: whitesmoke;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: deepskyblue;
+}
+header a{
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+}
+nav{
+  float: right;
+}
+nav li{
+  display: inline-block;
+
+}
+main{
+  margin-top: 50px; 
+}
+section{
+  padding: 2rem 0;
+}
+.img-profile{
+  float: left;
+  width: 40%;
+}
+.desc-profile{
+  float: right;
+  width: 60%;
+  padding: 1rem;
+  background: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+footer{
+  padding: 1rem 0;
+  background: black;
+  color: white;
+  margin: 0 auto;
+}
+footer .container{
+  text-align: center;
+}
+footer a{
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+  font-style: italic;
+}
