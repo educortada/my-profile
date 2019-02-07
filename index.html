@@ -9,9 +9,11 @@
 </head>
 <body>
   <header>
-    <a href ="#">Home</a>
     <nav>
-      <ul>
+      <ul class="menu container">
+        <li>
+          <a href ="#">Home</a>
+        </li>          
         <li>
           <a href="#about">About</a>
         </li>
@@ -26,22 +28,22 @@
         </li>
       </ul>
     </nav>
-    <div class="clearfix"></div>
   </header>
   <main>
     <section id="about" class="container">
       <h1>Edu Cortada</h1>
-      <div class="img-profile">
-          <img src="./img/edu-cortada.png" alt="Edu Cortada">
+      <div class="profile">
+        <div class="profile-img">
+          <img class="img-responsive" src="./img/edu-cortada.png" alt="Edu Cortada">
+        </div>
+        <article class="profile-desc">
+          <p>Hello! 👋🏼</p>
+          <p>I'm Edu from Premià de Dalt, a small town close to Barcelona.</p>
+          <p>My passion is surfing and travel around the world 🌏with my wife.</p>
+          <p>My other motivation is cooding and develope beutiful websites. 🚀</p>
+          <p>Bye bye!</p>
+        </article>
       </div>
-      <article class="desc-profile">
-        <p>Hello! 👋🏼</p>
-        <p>I'm Edu from Premià de Dalt, a small town close to Barcelona.</p>
-        <p>My passion is surfing and travel around the world 🌏with my wife.</p>
-        <p>My other motivation is cooding and develope beutiful websites. 🚀</p>
-        <p>Bye bye!</p>
-      </article>
-      <div class="clearfix"></div>
     </section>
     <section id="likes" class="container-wide bg-section">
       <div class="container">
@@ -70,10 +72,10 @@
         <h4>Frontend developer & UI</h4>
       </article>
     </section>
-    <section class="container-wide bg-section">
+    <section id="contact" class="container-wide bg-section">
       <div class="container">
         <h2>Contact me</h2>
-        <form method="GET">
+        <form method="POST">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" placeholder="Name">
           <label for="email">Email:</label>
@@ -89,7 +91,7 @@
       <address>
         <a href="tel:+34630594890">630 59 48 90</a>
         <a href="mailto:cortadaedu@gmail.com">cortadaedu@gmail.com</a>
-        Premià de Dalt (BCN)
+        <span>Premià de Dalt (BCN)</span>
       </address>
     </div>
   </footer>
